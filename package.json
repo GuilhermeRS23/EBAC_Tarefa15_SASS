@@ -1,15 +1,15 @@
 {
-  "name": "indroducao_sass",
+  "name": "ebac_tarefa15_sass",
   "version": "1.0.0",
-  "description": "Introdução ao Sass",
+  "description": "Tarefa do Modulo 15 - SASS",
   "main": "index.js",
-  "devDependencies": {
-    "sass": "^1.86.0"
-  },
   "scripts": {
     "sass": "sass src/styles/main.scss build/styles/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Grs",
-  "license": "ISC"
+  "author": "Guilherme RS",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.86.0"
+  }
 }
